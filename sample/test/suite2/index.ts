@@ -3,6 +3,7 @@ import * as Mocha from 'mocha';
 import * as glob from 'glob';
 
 export function run(testsRoot: string, cb: (error: any, failures?: number) => void): void {
+	console.log("#8 run suite2");
 	// Create the mocha test
 	const mocha = new Mocha({
 		ui: 'tdd'
